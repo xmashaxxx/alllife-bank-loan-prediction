@@ -216,3 +216,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+cp "/c/Users/jacob/Desktop/Projects/Loan_Modelling.csv" .
