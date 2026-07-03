@@ -1,4 +1,4 @@
-# AllLife Bank — Personal Loan Predictor
+# AllLife Bank a Personal Loan Predictor
 
 Interactive machine learning app that predicts whether an AllLife Bank customer 
 will accept a personal loan offer, powered by a decision tree classifier and 
@@ -28,14 +28,14 @@ relationships) and the app returns:
 
 ## Key Findings from the Analysis
 
-- **Income and CCAvg are the two strongest predictors** — high earners who spend 
+- **Income and CCAvg are the two strongest predictors**  high earners who spend 
   more on credit cards are far more likely to accept
 - **CD account holders are ~5× more likely to accept** a personal loan offer
 - **Graduate and advanced-degree customers** accept at significantly higher rates 
   than undergraduates
-- **Family size has minimal impact** — the proportion of loan acceptance remains 
+- **Family size has minimal impact** the proportion of loan acceptance remains 
   consistent across family sizes
-- **Age and Experience are redundant** (r = 0.99) — Experience was dropped from 
+- **Age and Experience are redundant** (r = 0.99)  Experience was dropped from 
   the model
 
 ## Model Performance
@@ -62,7 +62,7 @@ streamlit run app.py
 ```
 
 The dataset (`Loan_Modelling.csv`) is included for demo purposes.  
-Claude explanations require an Anthropic API key — the prediction and charts 
+Claude explanations require an Anthropic API key; the prediction and charts 
 work without one.
 
 ## Dataset
